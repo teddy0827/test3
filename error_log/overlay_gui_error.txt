@@ -1,0 +1,170 @@
+
+======================================================================
+[2026-09-01 19:56:58] run 후처리 (GUI v0.16.0)
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+
+======================================================================
+[2026-09-01 19:56:58] 실패 (GUI v0.16.0)
+분석은 끝났지만 결과 표시 중 오류가 났습니다.
+(K/통계 값은 Output 탭에 일부 반영됐을 수 있음)
+
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+
+======================================================================
+[2026-09-01 19:56:58] run 후처리 (GUI v0.16.0)
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+
+======================================================================
+[2026-09-01 19:56:58] 실패 (GUI v0.16.0)
+분석은 끝났지만 결과 표시 중 오류가 났습니다.
+(K/통계 값은 Output 탭에 일부 반영됐을 수 있음)
+
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+
+======================================================================
+[2026-09-01 19:56:58] run 후처리 (GUI v0.16.0)
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+
+======================================================================
+[2026-09-01 19:56:58] 실패 (GUI v0.16.0)
+분석은 끝났지만 결과 표시 중 오류가 났습니다.
+(K/통계 값은 Output 탭에 일부 반영됐을 수 있음)
+
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1206, in _on_run_finished
+    self._apply_run_payload(payload)
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\main_window.py", line 1236, in _apply_run_payload
+    point_cols = compute_point_results(
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 244, in compute_point_results
+    "Fit_X(um)": scatter(w.fitted_x) + kw_x + kr_x,
+  File "C:\py\06. overlay-analyzer-GUI\02_2_vba_py_GUI - 복사본\overlay_gui_v0.16.0\overlay_gui\engine_bridge.py", line 229, in scatter
+    out[perm] = np.asarray(arr, dtype=float)
+ValueError: shape mismatch: value array of shape (4617,) could not be broadcast to indexing result of shape (4616,)
